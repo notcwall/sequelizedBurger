@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var models = require('../models');
+var bodyParser = require('body-parser');
+var methodOverride = require('method-override');
 
 router.get('/', function(req, res){
 	models.Burger.findAll().then(function(burgers){
