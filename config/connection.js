@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+/* var mysql = require('mysql');
 var connection = mysql.createConnection({
 	port: 3306,
 	host: 'gx97kbnhgjzh3efb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
@@ -14,4 +14,4 @@ connection.connect(function(err){
 	}
 });
 
-module.exports = connection;
+module.exports = connection; */
